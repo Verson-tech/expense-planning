@@ -25,6 +25,12 @@ const App = () => {
       date: new Date(2021, 5, 12),
     },
   ];
+
+const addExpenseHandler = expense => {
+  console.log('In App.js');
+  console.log(expense);
+}
+
   // alternative function syntax (older), which required "import React from 'react';" in each file to enable transformation of jsx
   
   // return React.createElement(
@@ -37,7 +43,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses} />
     </div>
   );
