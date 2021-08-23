@@ -4,4 +4,4 @@
 <strong><em>How to Run:</em></strong>   <br>
 <strong><em>Roadmap of future improvements:</em></strong>  <br>
 <strong><em>License information:</em></strong>  
-React - The Complete Guide (incl Hooks, React Router, Redux), Udemy  <br>
+"React - The Complete Guide (incl Hooks, React Router, Redux)", Udemy  <br>
